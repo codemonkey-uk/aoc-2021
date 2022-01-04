@@ -13,13 +13,19 @@ There has been is no follow-up refactoring, or tidy up, aside this last README e
 
 The C++ used is C++17 and contains no 3rd party code or SDKs. 
 
-It does contain copies of graph (A*) and Geometry/math code I'd written for other projects already on github.
+It does contain copies of graph ([astar](src/astar.h)) and [Geometry](include/geometry)/math code I'd written for other projects already on github.
+
+The versions in this depot will not be updated, see instead:
+
+* https://gist.github.com/codemonkey-uk/8240501
+* https://github.com/codemonkey-uk/geometry
+
 
 ## Notes
 
 I completed puzzles 1-15 on the day without problems.
 
-Day 6 "Lanternfish" is notable as the first with a performance "gotcha" on part 2.
+Day 6 "Lanternfish" is notable as the first with a potential performance "gotcha" on part 2.
 
 Day 8 is a fun puzzle, but the puzzle is was not in how to program it.
 
@@ -43,7 +49,7 @@ Day 19, day 23 part 2, and day 24 were difficult. I pushed myself outside of my 
 
 Day 23 I just scrapped a passable solver, but I made a number of poor choices on that one early on.
 
-Day 24 had be stumped for a while, and I went off on several fruitless wild tangents, as you will see if you take a look at the code.
+Day 24 had me stumped for a while, and I went off on several fruitless wild tangents, as you will see if you take a look at the code.
 
 If you have any questions, please feel free to get in touch.
 
